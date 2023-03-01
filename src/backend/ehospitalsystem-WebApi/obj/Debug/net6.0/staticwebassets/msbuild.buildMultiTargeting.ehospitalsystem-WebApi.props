@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ehospitalsystem-WebApi.props" />
+</Project>

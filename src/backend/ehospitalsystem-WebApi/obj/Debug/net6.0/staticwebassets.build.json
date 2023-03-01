@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PLiSx0Fx7IfEx34UsKxGD5mZk9uBCbSjjNOtlSUhcso=",
+  "Source": "ehospitalsystem-WebApi",
+  "BasePath": "_content/ehospitalsystem-WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
