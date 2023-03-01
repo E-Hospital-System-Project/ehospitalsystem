@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5445B29-FC9B-4F18-8DCD-C6DD43734898}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{F6B8AE39-00C4-4FF7-A19A-BADDB02F8BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ehospitalsystem-WebApi", "src\backend\ehospitalsystem-WebApi\ehospitalsystem-WebApi.csproj", "{17943D23-A057-4352-BE6D-DB6BE86EEF40}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17943D23-A057-4352-BE6D-DB6BE86EEF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17943D23-A057-4352-BE6D-DB6BE86EEF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17943D23-A057-4352-BE6D-DB6BE86EEF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17943D23-A057-4352-BE6D-DB6BE86EEF40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6B8AE39-00C4-4FF7-A19A-BADDB02F8BC6} = {F5445B29-FC9B-4F18-8DCD-C6DD43734898}
+		{17943D23-A057-4352-BE6D-DB6BE86EEF40} = {F6B8AE39-00C4-4FF7-A19A-BADDB02F8BC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6764CB6-98C7-4FC5-98C5-0532068E3A9B}
